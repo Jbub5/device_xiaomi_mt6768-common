@@ -827,7 +827,6 @@ vendor/bin/gsm0710muxd
 vendor/bin/netdagent
 vendor/etc/apdb/APDB_MT6768_S01__W2040
 vendor/etc/apdb/APDB_MT6768_S01__W2040_ENUM
-vendor/etc/init/em_hidl_user.rc
 vendor/etc/init/gsm0710muxd.rc
 vendor/etc/init/init.cccifsd.rc
 vendor/etc/init/init.cccimdinit.rc
@@ -946,12 +945,9 @@ vendor/etc/thermal-youtube.conf
 vendor/etc/thermald-devices.conf
 vendor/lib/hw/android.hardware.thermal@2.0-impl.so
 vendor/lib/hw/thermal.mt6768.so
-vendor/lib/libmt.so
 vendor/lib/libthermalalgo.so
 vendor/lib64/hw/android.hardware.thermal@2.0-impl.so
 vendor/lib64/hw/thermal.mt6768.so
-vendor/lib64/libmt.so
-vendor/lib64/libmt@1.2.so
 vendor/lib64/libmtcloader.so
 
 # UDF - from merlin-user 12 SP1A.210812.016 V13.0.1.0.SJOMIXM release-keys
