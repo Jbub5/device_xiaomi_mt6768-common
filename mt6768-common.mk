@@ -295,7 +295,9 @@ PRODUCT_PACKAGES += \
     android.hardware.vibrator@1.0-service
                                 
 # Soong namespaces
-PRODUCT_SOONG_NAMESPACES += $(COMMON_PATH)
+PRODUCT_SOONG_NAMESPACES += \
+    hardware/mediatek \
+    $(COMMON_PATH)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
