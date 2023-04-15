@@ -290,5 +290,14 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.log.tag.MDP=$(VENDOR_LOG_LEVEL) \
     persist.log.tag.Profiler=$(VENDOR_LOG_LEVEL) \
     persist.log.tag.GPUAUX=$(VENDOR_LOG_LEVEL) \
-    persist.log.tag.FrameTracker=$(VENDOR_LOG_LEVEL)
+    persist.log.tag.FrameTracker=$(VENDOR_LOG_LEVEL) \
+    persist.log.tag.DisplayFeatureHal=$(VENDOR_LOG_LEVEL) \
+    persist.log.tag.HWComposer=$(VENDOR_LOG_LEVEL) \
+    persist.log.tag.mali_config=$(VENDOR_LOG_LEVEL) \
+    persist.log.tag.ccci_mdinit=$(VENDOR_LOG_LEVEL) \
+    persist.log.tag.thermal_repeater=$(VENDOR_LOG_LEVEL) \
+    persist.log.tag.BufferQueueDump=$(VENDOR_LOG_LEVEL) \
+    persist.log.tag.BufferQueueProducer=$(VENDOR_LOG_LEVEL) \
+    persist.log.tag.SurfaceControl=$(VENDOR_LOG_LEVEL) \
+    persist.log.tag.GraphicBuffer=$(VENDOR_LOG_LEVEL)
 
