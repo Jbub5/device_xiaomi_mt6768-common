@@ -25,6 +25,9 @@ $(call inherit-product, vendor/xiaomi/mt6768-ims/mt6768-ims-vendor.mk)
 # Overlays
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
+PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
+    $(LOCAL_PATH)/overlay-lineage
+
 # APNs
 PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/configs/apns-conf.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/apns-conf.xml
