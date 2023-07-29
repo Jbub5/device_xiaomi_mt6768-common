@@ -19,6 +19,9 @@ COMMON_PATH := device/xiaomi/mt6768-common
 # Include Dev GSI Keys
 $(call inherit-product, $(SRC_TARGET_DIR)/product/developer_gsi_keys.mk)
 
+# Project ID Quota
+$(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
+
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/xiaomi/mt6768-ims/mt6768-ims-vendor.mk)
 
