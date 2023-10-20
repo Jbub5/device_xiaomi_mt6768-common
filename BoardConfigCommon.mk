@@ -114,6 +114,7 @@ TARGET_COPY_OUT_SYSTEM_EXT := system_ext
 
 # Platform
 TARGET_BOARD_PLATFORM := mt6768
+PRODUCT_USES_QCOM_HARDWARE := false
 
 # Properties
 TARGET_PRODUCT_PROP += $(COMMON_PATH)/configs/props/product.prop
