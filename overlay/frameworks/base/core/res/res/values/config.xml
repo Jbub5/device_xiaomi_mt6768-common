@@ -130,6 +130,9 @@
          Doze dreams will run whenever the power manager is in a dozing state. -->
      <string name="config_dozeComponent">com.android.systemui/com.android.systemui.doze.DozeService</string>
 
+    <!-- Pocket Lock -->
+     <bool name="config_pocketModeSupported">true</bool>
+
     <!-- Array of hysteresis constraint values for brightening, represented as tenths of a
          percent. The length of this array is assumed to be one greater than
          config_ambientThresholdLevels. The brightening threshold is calculated as
