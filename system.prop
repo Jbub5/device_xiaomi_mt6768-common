@@ -27,6 +27,10 @@ dalvik.vm.dex2oat-threads=6
 # FUSE passthrough
 persist.sys.fuse.passthrough.enable=true
 
+
+# FM Radio
+persist.sys.radio.force_lte_ca=true
+
 # RIL
 persist.sys.fflag.override.settings_provider_model=false
 
