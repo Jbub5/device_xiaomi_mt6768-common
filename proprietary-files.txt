@@ -15,7 +15,6 @@ vendor/lib64/libaal_mtk.so
 vendor/lib64/libaalservice.so
 
 # Audio
-vendor/bin/audiocmdservice_atci
 vendor/etc/audio_param/BtInfo_AudioParam.xml
 vendor/etc/audio_param/BtInfo_ParamUnitDesc.xml
 vendor/etc/audio_param/HpImpedance_ParamUnitDesc.xml
@@ -177,7 +176,6 @@ vendor/etc/audio_param_ce/VolumeGainMap_ParamUnitDesc.xml
 vendor/etc/audio_param_ce/Volume_AudioParam.xml
 vendor/etc/audio_param_ce/Volume_ParamUnitDesc.xml
 vendor/etc/aurisys_param/Speech_AudioParam.xml
-vendor/etc/init/audiocmdservice_atci.rc
 vendor/etc/aurisys_config.xml
 vendor/lib/hw/audio.r_submix.mt6768.so
 vendor/lib/hw/audio.usb.mt6768.so
@@ -648,9 +646,7 @@ vendor/lib64/vendor.mediatek.hardware.pq@2.6.so
 
 # NVRAM
 vendor/bin/hw/vendor.mediatek.hardware.nvram@1.1-service
-vendor/bin/atcid
 vendor/bin/fuelgauged
-vendor/etc/init/atcid.rc
 vendor/etc/init/fuelgauged_init.rc
 vendor/etc/init/fuelgauged_nvram_init.rc
 vendor/etc/init/nvram_daemon.rc
@@ -670,7 +666,6 @@ vendor/lib64/libnvram.so
 vendor/lib64/libnvram_daemon_callback.so
 vendor/lib64/libnvram_platform.so
 vendor/lib64/libnvram_sec.so
-vendor/lib64/vendor.mediatek.hardware.atci@1.0.so
 vendor/lib64/vendor.mediatek.hardware.nvram@1.0.so
 vendor/lib64/vendor.mediatek.hardware.nvram@1.1.so
 
