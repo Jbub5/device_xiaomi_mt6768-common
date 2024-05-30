@@ -824,8 +824,6 @@ vendor/bin/ccci_fsd
 vendor/bin/ccci_mdinit
 vendor/bin/ccci_rpcd
 vendor/bin/gsm0710muxd
-vendor/bin/md_monitor
-vendor/bin/md_monitor_ctrl
 vendor/bin/netdagent
 vendor/etc/apdb/APDB_MT6768_S01__W2040
 vendor/etc/apdb/APDB_MT6768_S01__W2040_ENUM
@@ -836,7 +834,6 @@ vendor/etc/init/init.cccimdinit.rc
 vendor/etc/init/init.cccirpcd.rc
 vendor/etc/init/init.udc_lib.rc
 vendor/etc/init/init_connectivity.rc
-vendor/etc/init/md_monitor.rc
 vendor/etc/init/mtkrild.rc
 vendor/etc/init/netdagent.rc
 vendor/etc/init/networksetting.rc
@@ -872,7 +869,6 @@ vendor/lib/libmtksysutils.so
 vendor/lib/libstorage_otp.so
 vendor/lib/libsysenv.so
 vendor/lib/libutinterface_md.so
-vendor/lib/vendor.mediatek.hardware.mdmonitor@1.0.so
 vendor/lib/vendor.mediatek.hardware.mms@1.0.so
 vendor/lib/vendor.mediatek.hardware.mms@1.1.so
 vendor/lib/vendor.mediatek.hardware.mms@1.2.so
@@ -901,7 +897,6 @@ vendor/lib64/libsysenv.so
 vendor/lib64/libutinterface_md.so
 vendor/lib64/libvia-ril.so
 vendor/lib64/libwo.so
-vendor/lib64/vendor.mediatek.hardware.mdmonitor@1.0.so
 vendor/lib64/vendor.mediatek.hardware.mms@1.0.so
 vendor/lib64/vendor.mediatek.hardware.mms@1.1.so
 vendor/lib64/vendor.mediatek.hardware.mms@1.2.so
@@ -971,12 +966,8 @@ vendor/bin/wmt_loader
 vendor/etc/init/init.wlan_drv.rc
 vendor/etc/init/init.wmt_drv.rc
 vendor/etc/init/wlan_assistant.rc
-vendor/lib/libapmonitor_vendor.so
-vendor/lib/vendor.mediatek.hardware.apmonitor@2.0.so
 vendor/lib64/libwifi-hal.so:vendor/lib64/libwifi-hal-mtk.so;FIX_SONAME
-vendor/lib64/libapmonitor_vendor.so
 vendor/lib64/libwifitest.so
-vendor/lib64/vendor.mediatek.hardware.apmonitor@2.0.so
 vendor/lib64/vendor.mediatek.hardware.wifi.supplicant@2.0.so
 vendor/lib64/vendor.mediatek.hardware.wifi.supplicant@2.1.so
 vendor/lib64/vendor.mediatek.hardware.wifi.supplicant@2.2.so
