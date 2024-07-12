@@ -419,3 +419,7 @@ PRODUCT_PACKAGES += \
     android.hardware.usb.gadget@1.1-service.mt6768 \
     android.hardware.usb@1.0.vendor \
     android.hardware.usb@1.1.vendor
+
+# Use FUSE passthrough
+PRODUCT_PRODUCT_PROPERTIES += \
+    persist.sys.fuse.passthrough.enable=true
