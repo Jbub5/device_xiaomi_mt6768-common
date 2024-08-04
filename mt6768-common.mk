@@ -62,7 +62,8 @@ PRODUCT_PACKAGES += \
     libnbaio_mono \
     libaudiofoundation \
     libaudiofoundation.vendor \
-    libtinycompress.vendor
+    libtinycompress.vendor \
+    libldacBT_bco
 
 PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/configs/audio/audio_device.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_device.xml \
