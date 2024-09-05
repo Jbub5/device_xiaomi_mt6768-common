@@ -75,6 +75,7 @@ debug.hwui.target_cpu_time_percent=30
 
 # LMK
 ro.lmk.kill_heaviest_task=true
+ro.lmk.log_stats=false
 
 # IMS
 persist.dbg.volte_avail_ovr=1
