@@ -6,7 +6,7 @@
 
 soong_namespace {
     imports: [
-        "hardware/xiaomi"
+        "vendor/hardware/xiaomi"
     ]
 }
 cc_library_shared {

@@ -403,7 +403,7 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/google/interfaces \
     hardware/google/pixel \
     hardware/mediatek \
-    hardware/xiaomi \
+    vendor/hardware/xiaomi \
     hardware/mediatek/libmtkperf_client \
     hardware/lineage/interfaces/power-libperfmgr \
     vendor/fingerprint/opensource/interfaces \

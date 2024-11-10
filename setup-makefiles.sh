@@ -25,7 +25,7 @@ function vendor_imports() {
 		"device/xiaomi/mt6768-common",
 		"hardware/mediatek",
 		"hardware/mediatek/libmtkperf_client",
-		"hardware/xiaomi"
+		"vendor/hardware/xiaomi"
 EOF
 }
 
