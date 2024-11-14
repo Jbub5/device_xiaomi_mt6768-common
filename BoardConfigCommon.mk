@@ -28,6 +28,32 @@ TARGET_2ND_CPU_ABI2 := armeabi
 TARGET_2ND_CPU_VARIANT := generic
 TARGET_2ND_CPU_VARIANT_RUNTIME := cortex-a55
 
+# HWUI
+HWUI_COMPILE_FOR_PERF := true
+
+# Memory Config
+MALLOC_SVELTE := true
+MALLOC_SVELTE_FOR_LIBC32 := true
+MALLOC_LOW_MEMORY := true
+
+# SurfaceFlinger
+TARGET_USE_AOSP_SURFACEFLINGER := true
+
+# ART
+ART_BUILD_TARGET_NDEBUG := true
+ART_BUILD_TARGET_DEBUG := false
+ART_BUILD_HOST_NDEBUG := true
+ART_BUILD_HOST_DEBUG := false
+
+# Enable whole-program R8 Java optimizations for SystemUI and system_server,
+# but also allow explicit overriding for testing and development.
+SYSTEM_OPTIMIZE_JAVA := true
+SYSTEMUI_OPTIMIZE_JAVA := true
+
+# Update
+AB_OTA_UPDATER := false
+PRODUCT_SOONG_NAMESPACES += bootable/deprecated-ota
+
 # Bootloader
 BOARD_VENDOR := xiaomi
 TARGET_BOOTLOADER_BOARD_NAME := mt6768
@@ -55,6 +81,8 @@ BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
 
 BOARD_KERNEL_CMDLINE := bootopt=64S3,32N2,64N2
 BOARD_KERNEL_CMDLINE += androidboot.init_fatal_reboot_target=recovery
+BOARD_KERNEL_CMDLINE += nodebugmon
+BOARD_KERNEL_CMDLINE += noirqdebug
 
 # Init
 TARGET_INIT_VENDOR_LIB := //$(COMMON_PATH):libinit_xiaomi_mt6768
