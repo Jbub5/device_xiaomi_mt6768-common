@@ -28,6 +28,9 @@ TARGET_2ND_CPU_ABI2 := armeabi
 TARGET_2ND_CPU_VARIANT := generic
 TARGET_2ND_CPU_VARIANT_RUNTIME := cortex-a55
 
+# Flatten APEXs for performance
+OVERRIDE_TARGET_FLATTEN_APEX := true
+
 # HWUI
 HWUI_COMPILE_FOR_PERF := true
 
@@ -36,14 +39,24 @@ MALLOC_SVELTE := true
 MALLOC_SVELTE_FOR_LIBC32 := true
 MALLOC_LOW_MEMORY := true
 
-# SurfaceFlinger
-TARGET_USE_AOSP_SURFACEFLINGER := true
+# Dex
+WITH_DEXPREOPT := true
+WITH_DEXPREOPT_BOOT_IMG_AND_SYSTEM_SERVER_ONLY := false
+PRODUCT_ALWAYS_PREOPT_EXTRACTED_APK := true
+DONT_DEXPREOPT_PREBUILTS := false
 
-# ART
+# Dex - Debug
 ART_BUILD_TARGET_NDEBUG := true
 ART_BUILD_TARGET_DEBUG := false
 ART_BUILD_HOST_NDEBUG := true
 ART_BUILD_HOST_DEBUG := false
+#PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
+#PRODUCT_ART_TARGET_INCLUDE_DEBUG_BUILD := false
+USE_DEX2OAT_DEBUG := false
+
+# Dex - Android Go Configurations
+#PRODUCT_USE_PROFILE_FOR_BOOT_IMAGE := true
+#PRODUCT_DEX_PREOPT_BOOT_IMAGE_PROFILE_LOCATION := frameworks/base/config/boot-image-profile.txt
 
 # Enable whole-program R8 Java optimizations for SystemUI and system_server,
 # but also allow explicit overriding for testing and development.
