@@ -278,7 +278,8 @@ PRODUCT_PACKAGES += \
     SettingsOverlayMT6768 \
     TelephonyOverlayMT6768 \
     TetheringConfigOverlayMT6768 \
-    WifiOverlayMT6768
+    WifiOverlayMT6768 \
+    MulchWebViewOverlay
 
 # Power
 PRODUCT_PACKAGES += \
