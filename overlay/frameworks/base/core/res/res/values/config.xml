@@ -544,6 +544,6 @@
          should also be hidden if intended to be permanent. -->
     <item name="config_appTransitionAnimationDurationScaleDefault" format="float" type="dimen">0.8</item>
 
-    <!-- Turbulence effect -->
-    <bool name="config_mediaControlsTurbulenceByDefault">false</bool>
+    <!-- Whether to play turbulence noise after clicking the play button -->
+    <bool name="config_turbulenceNoise">false</bool>
 </resources>
