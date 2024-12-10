@@ -311,8 +311,6 @@ PRODUCT_PACKAGES += \
                                 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
-    hardware/mediatek \
-    hardware/xiaomi \
     $(COMMON_PATH)
 
 # Overlays
