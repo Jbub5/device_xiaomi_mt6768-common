@@ -76,6 +76,7 @@ BOARD_KERNEL_CMDLINE += pm.sleep_mode=1
 
 # Malloc
 MALLOC_SVELTE := true
+MALLOC_SVELTE_FOR_LIBC32 := true
 MALLOC_LOW_MEMORY := true
 
 # Partitions
