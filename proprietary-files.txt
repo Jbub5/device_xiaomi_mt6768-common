@@ -955,7 +955,6 @@ vendor/lib64/libmt@1.2.so
 vendor/lib64/libmtcloader.so
 
 # UDF - from merlin-user 12 SP1A.210812.016 V13.0.1.0.SJOMIXM release-keys
-vendor/lib/libudf.so|7cdbb5c5c616dbbec6afcd75d5cc41f915ff82d6
 vendor/lib64/libudf.so|66324571c3f69057b250bce3b0d58c386da0c25b
 
 # WiFi
