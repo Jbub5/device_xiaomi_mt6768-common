@@ -60,7 +60,7 @@ BOARD_KERNEL_CMDLINE := bootopt=64S3,32N2,64N2
 BOARD_KERNEL_CMDLINE += androidboot.init_fatal_reboot_target=recovery
 
 # Init
-TARGET_INIT_VENDOR_LIB := //$(COMMON_PATH):libinit_xiaomi_mt6768
+$(call soong_config_set,libinit,vendor_init_lib,//$(COMMON_PATH):libinit_xiaomi_mt6768)
 TARGET_RECOVERY_DEVICE_MODULES := libinit_xiaomi_mt6768
 
 # Kernel
@@ -172,10 +172,10 @@ BOARD_AVB_VBMETA_VENDOR_ROLLBACK_INDEX_LOCATION := 3
 
 # Lineage Health
 ifneq ($(wildcard hardware/*/interfaces/health),)
-TARGET_HEALTH_CHARGING_CONTROL_SUPPORTS_BYPASS := false
-TARGET_HEALTH_CHARGING_CONTROL_CHARGING_PATH := /sys/class/power_supply/battery/input_suspend
-TARGET_HEALTH_CHARGING_CONTROL_CHARGING_ENABLED := 0
-TARGET_HEALTH_CHARGING_CONTROL_CHARGING_DISABLED := 1
+$(call soong_config_set,lineage_health,charging_control_supports_bypass,false)
+$(call soong_config_set,lineage_health,charging_control_charging_path,/sys/class/power_supply/battery/input_suspend)
+$(call soong_config_set,lineage_health,charging_control_charging_enabled,0)
+$(call soong_config_set,lineage_health,charging_control_charging_disabled,1)
 
 BOARD_VENDOR_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/vendor/lineage_health_hal
 endif
