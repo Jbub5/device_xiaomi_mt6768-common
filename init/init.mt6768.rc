@@ -1019,6 +1019,10 @@ on property:persist.vendor.mediatek.fg.force25c=0
     write /sys/devices/platform/battery_meter/FG_drv_force25c 0
     write /sys/bus/platform/devices/battery/Battery_Temperature 65535
 
+on property:persist.vendor.mediatek.fg.log.enable=0
+    write /sys/devices/platform/battery_meter/FG_daemon_log_level 7
+    write /sys/bus/platform/devices/battery/FG_daemon_log_level 7
+
 on property:persist.vendor.mediatek.fg.log.enable=1
     write /sys/devices/platform/battery_meter/FG_daemon_log_level 7
     write /sys/bus/platform/devices/battery/FG_daemon_log_level 7

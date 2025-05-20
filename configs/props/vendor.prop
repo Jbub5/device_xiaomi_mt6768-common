@@ -262,3 +262,6 @@ ro.vendor.wlan.gen=gen4m
 
 # Zygote
 zygote.critical_window.minute=10
+
+# fuelgauged log
+persist.vendor.mediatek.fg.log.enable=0
