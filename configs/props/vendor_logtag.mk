@@ -129,6 +129,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.log.tag.ImsEcbm=$(VENDOR_LOG_LEVEL) \
     persist.log.tag.ImsEcbmProxy=$(VENDOR_LOG_LEVEL) \
     persist.log.tag.hwcomposer=$(VENDOR_LOG_LEVEL) \
+    persist.log.tag.HWUI=$(VENDOR_LOG_LEVEL) \
     persist.log.tag.OpenGLRenderer=$(VENDOR_LOG_LEVEL) \
     persist.log.tag.OperatorUtils=$(VENDOR_LOG_LEVEL) \
     persist.log.tag.WfoApp=$(VENDOR_LOG_LEVEL) \
