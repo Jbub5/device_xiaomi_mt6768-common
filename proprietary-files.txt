@@ -226,7 +226,6 @@ vendor/lib64/vendor.mediatek.hardware.audio@6.1.so
 # Bluetooth
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-mediatek
 vendor/etc/init/android.hardware.bluetooth@1.0-service-mediatek.rc
-vendor/etc/init/init.bt_drv.rc
 vendor/lib/hw/android.hardware.bluetooth@1.0-impl-mediatek.so
 vendor/lib/libbluetooth_mtk.so
 vendor/lib/libbluetooth_mtk_pure.so
@@ -525,7 +524,6 @@ vendor/bin/lbs_hidl_service
 vendor/bin/mtk_agpsd
 vendor/etc/init/android.hardware.gnss@2.1-service-mediatek.rc
 vendor/etc/init/init.bip.rc
-vendor/etc/init/init.gps_drv.rc
 vendor/etc/init/lbs_hidl_service.rc
 vendor/etc/init/mtk_agpsd_p.rc
 vendor/lib/hw/gps.default.so
@@ -807,7 +805,6 @@ vendor/etc/init/gsm0710muxd.rc
 vendor/etc/init/init.cccifsd.rc
 vendor/etc/init/init.cccimdinit.rc
 vendor/etc/init/init.cccirpcd.rc
-vendor/etc/init/init.udc_lib.rc
 vendor/etc/init/init_connectivity.rc
 vendor/etc/init/mtkrild.rc
 vendor/etc/init/netdagent.rc
@@ -933,8 +930,6 @@ vendor/lib64/libudf.so|66324571c3f69057b250bce3b0d58c386da0c25b
 bin/iwpriv;DISABLE_CHECKELF
 vendor/bin/wmt_launcher
 vendor/bin/wmt_loader
-vendor/etc/init/init.wlan_drv.rc
-vendor/etc/init/init.wmt_drv.rc
 vendor/lib64/libwifi-hal.so:vendor/lib64/libwifi-hal-mtk.so;FIX_SONAME
 vendor/lib64/libwifitest.so
 
