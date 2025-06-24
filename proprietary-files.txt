@@ -225,24 +225,19 @@ vendor/lib64/vendor.mediatek.hardware.audio@6.1.so
 
 # Bluetooth
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-mediatek
-vendor/bin/autobt
 vendor/etc/init/android.hardware.bluetooth@1.0-service-mediatek.rc
 vendor/etc/init/init.bt_drv.rc
 vendor/lib/hw/android.hardware.bluetooth@1.0-impl-mediatek.so
-vendor/lib/libbluetooth_hw_test.so
 vendor/lib/libbluetooth_mtk.so
 vendor/lib/libbluetooth_mtk_pure.so
-vendor/lib/libbluetooth_relayer.so
-vendor/lib/libbluetoothem_mtk.so
 vendor/lib/libbt-vendor.so
-vendor/lib/vendor.mediatek.hardware.bluetooth.audio@2.1.so
 vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-mediatek.so
-vendor/lib64/libbluetooth_hw_test.so
 vendor/lib64/libbluetooth_mtk.so
 vendor/lib64/libbluetooth_mtk_pure.so
-vendor/lib64/libbluetooth_relayer.so
-vendor/lib64/libbluetoothem_mtk.so
 vendor/lib64/libbt-vendor.so
+
+# Bluetooth (A2DP)
+vendor/lib/vendor.mediatek.hardware.bluetooth.audio@2.1.so
 vendor/lib64/vendor.mediatek.hardware.bluetooth.audio@2.1.so
 
 # Camera
