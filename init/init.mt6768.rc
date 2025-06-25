@@ -1029,27 +1029,6 @@ on property:persist.vendor.mediatek.fg.log.enable=1
     write /sys/bus/platform/devices/battery/FG_daemon_log_level 7
     write /proc/sys/kernel/printk 8
 
-
-# add meta_tst for ATM
-service meta_tst /vendor/bin/meta_tst
-    class main
-    user system
-    group radio gps system wifi audio bluetooth media
-    capabilities NET_RAW NET_ADMIN
-    disabled
-    oneshot
-
-
-service initprop_bin /system/vendor/bin/initprop_bin
-    class main
-    user root
-    oneshot
-    disabled
-
-on property:vendor.service.nvram_init=Ready
-    start initprop_bin
-
-
 on property:persist.odm.ril.oem.sno=*
     setprop ro.ril.oem.sno ${persist.odm.ril.oem.sno}
     setprop ro.ril.miui.sno ${persist.odm.ril.oem.sno}
@@ -1073,20 +1052,8 @@ on property:persist.odm.ril.oem.imei1=*
 on property:persist.odm.ril.oem.imei2=*
     setprop ro.ril.oem.imei2 ${persist.odm.ril.oem.imei2}
 
-service openad /system/vendor/bin/displayf_bin s 1
-    user root
-    group root system graphics
-    oneshot
-    disabled
-
 on property:sys.hq.ad=1
     start openad
-
-service closead /system/vendor/bin/displayf_bin s 0
-    user root
-    group root system graphics
-    oneshot
-    disabled
 
 on property:sys.hq.ad=0
     start closead
@@ -1106,89 +1073,8 @@ service vendor.charger /system/bin/charger
     file /sys/fs/pstore/console-ramoops r
     file /proc/last_kmsg r
 
-service screenmode0 /system/vendor/bin/factory_bin s 0
-    class main
-    user root
-    oneshot
-    disabled
-
-service screenmode1 /system/vendor/bin/factory_bin s 1
-    class main
-    user root
-    oneshot
-    disabled
-
-service screenmode3 /system/vendor/bin/factory_bin s 3
-    class main
-    user root
-    oneshot
-    disabled
-
-service openpocket /system/vendor/bin/factory_bin p 1
-    class main
-    user root
-    oneshot
-    disabled
-
-service closepocket /system/vendor/bin/factory_bin p 0
-    class main
-    user root
-    oneshot
-    disabled
-
-service enablefreqhop /system/vendor/bin/factory_bin c 1
-    class main
-    user root
-    oneshot
-    disabled
-
-service disablefreqhop /system/vendor/bin/factory_bin c 0
-    class main
-    user root
-    oneshot
-    disabled
-
 on init
     symlink /dev/block/platform/bootdevice /dev/block/bootdevice
-service enableswtp /system/vendor/bin/factory_bin z 1
-    class main
-    user root
-    oneshot
-    disabled
-
-service disableswtp /system/vendor/bin/factory_bin z 0
-    class main
-    user root
-    oneshot
-    disabled
-
-service gaogpio /system/vendor/bin/factory_bin y 1
-    class main
-    user root
-    oneshot
-    disabled
-
-service digpio /system/vendor/bin/factory_bin y 0
-    class main
-    user root
-    oneshot
-    disabled
-
-# FPSGO FBT Game
-on boot
-    insmod /vendor/lib/modules/fpsgo.ko
-
-service maxcurrentNocall /system/vendor/bin/factory_bin m 0
-    class main
-    user root
-    oneshot
-    disabled
-
-service maxcurrentIncall /system/vendor/bin/factory_bin m 1
-    class main
-    user root
-    oneshot
-    disabled
 
 service mi_thermald /vendor/bin/mi_thermald
     class main
