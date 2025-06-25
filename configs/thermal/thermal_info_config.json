@@ -172,30 +172,6 @@
       "Type": "COMPONENT"
     },
     {
-      "Name": "tzimgs0-sysrst",
-      "Type": "COMPONENT"
-    },
-    {
-      "Name": "tzimgs1-sysrst",
-      "Type": "COMPONENT"
-    },
-    {
-      "Name": "tzimgs2-sysrst",
-      "Type": "COMPONENT"
-    },
-    {
-      "Name": "tzimgs3-sysrst",
-      "Type": "COMPONENT"
-    },
-    {
-      "Name": "tzimgs4-sysrst",
-      "Type": "COMPONENT"
-    },
-    {
-      "Name": "tzimgs5-sysrst",
-      "Type": "COMPONENT"
-    },
-    {
       "Name": "mtktspmic-sysrst",
       "Type": "COMPONENT"
     },
