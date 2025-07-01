@@ -699,7 +699,6 @@ vendor/lib64/vendor.mediatek.hardware.mtkcodecservice@1.1.so
 
 # IMS
 vendor/bin/epdg_wod
-vendor/bin/mtk_pkm_service
 vendor/bin/muxreport
 vendor/bin/volte_imsm_93
 vendor/bin/volte_md_status
@@ -712,7 +711,6 @@ vendor/etc/init/init.volte_stack.rc
 vendor/etc/init/init.volte_ua.rc
 vendor/etc/init/init.wfca.rc
 vendor/etc/init/init.wod.rc
-vendor/etc/init/mtk_pkm_service.rc
 vendor/lib/libMtkSpeechEnh.so
 vendor/lib/libasn1c_core.so
 vendor/lib/libasn1c_mapi.so
@@ -722,7 +720,6 @@ vendor/lib/libmsbc_mtk.so
 vendor/lib/libmtcloader.so
 vendor/lib/libmtklimiter_vendor.so
 vendor/lib/libmtkshifter_vendor.so
-vendor/lib/libpkm.so
 vendor/lib/libtranslator_mapi_v3.0.so
 vendor/lib/libtranslator_utils.so
 vendor/lib/libvolte_core_shr.so
@@ -737,7 +734,6 @@ vendor/lib64/libmnetlink_v104.so
 vendor/lib64/libmtklimiter_vendor.so
 vendor/lib64/libmtkshifter_vendor.so
 vendor/lib64/libmtktinyxml.so
-vendor/lib64/libpkm.so
 vendor/lib64/libtranslator_mapi_v3.0.so
 vendor/lib64/libtranslator_utils.so
 vendor/lib64/libwapi.so
