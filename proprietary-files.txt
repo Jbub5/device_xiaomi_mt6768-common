@@ -518,11 +518,9 @@ vendor/firmware/soc1_0_ram_bt_1a_1_hdr.bin|8c5d8e93ad8a03c6de5aaaad8ef58d53e75c8
 # GPS
 vendor/bin/hw/android.hardware.gnss@2.1-service-mediatek
 vendor/bin/bip
-vendor/bin/lbs_hidl_service
 vendor/bin/mtk_agpsd
 vendor/etc/init/android.hardware.gnss@2.1-service-mediatek.rc
 vendor/etc/init/init.bip.rc
-vendor/etc/init/lbs_hidl_service.rc
 vendor/etc/init/mtk_agpsd_p.rc
 vendor/lib/hw/gps.default.so
 vendor/lib/libDR.so
@@ -534,11 +532,9 @@ vendor/lib/libssl-mdapp.so
 vendor/lib/libviagpsrpc.so
 vendor/lib64/hw/android.hardware.gnss@2.1-impl-mediatek.so
 vendor/lib64/hw/gps.default.so
-vendor/lib64/lbs_hidl_service-impl.so
 vendor/lib64/libcrypto-mdapp.so
 vendor/lib64/libcurl-md.so
 vendor/lib64/libssl-mdapp.so
-vendor/lib64/vendor.mediatek.hardware.lbs@1.0.so
 
 # GPS (Configs)
 vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_ATnT_Mexico.xml
