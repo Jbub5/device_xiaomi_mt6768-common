@@ -924,7 +924,6 @@ bin/iwpriv;DISABLE_CHECKELF
 vendor/bin/wmt_launcher
 vendor/bin/wmt_loader
 vendor/lib64/libwifi-hal.so:vendor/lib64/libwifi-hal-mtk.so;FIX_SONAME
-vendor/lib64/libwifitest.so
 
 # Xiaomi
 vendor/bin/LDC_packdata_xiaomi_C3_src1_3264x2448_v4_20190730.dat
