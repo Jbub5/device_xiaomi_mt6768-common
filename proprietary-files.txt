@@ -9,10 +9,10 @@ vendor/lib64/libladder.so
 # AAL
 vendor/lib/libaal_key.so
 vendor/lib/libaal_mtk.so
-vendor/lib/libaalservice.so
+vendor/lib/libaalservice.so|e9862291f5c8594a1c3538801b7d457660b67d0c71ef05cb956f2bc24bbdcc1e
 vendor/lib64/libaal_key.so
 vendor/lib64/libaal_mtk.so
-vendor/lib64/libaalservice.so
+vendor/lib64/libaalservice.so|3f6fa795f8cb87262a49588129a186dc5eb30c7e50ecdd89feed268b6f10a979
 
 # Audio
 vendor/etc/audio_param/BtInfo_AudioParam.xml
@@ -387,7 +387,7 @@ vendor/lib64/libwvhidl.so
 # Graphics
 vendor/bin/hw/vendor.mediatek.hardware.dfps@1.0-service
 vendor/bin/hw/vendor.mediatek.hardware.gpu@1.0-service
-vendor/bin/vpud
+vendor/bin/vpud|d962f8acc014877ce84af051fab4bd955b179763aec65d526ffb77f80087dfcc
 vendor/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc
 vendor/etc/init/vendor.mediatek.hardware.dfps@1.0-service.rc
 vendor/etc/init/vendor.mediatek.hardware.gpu@1.0-service.rc
@@ -395,10 +395,10 @@ vendor/etc/init/vpud.rc
 vendor/etc/vintf/manifest/android.hardware.gpu@1.0-service.xml:vendor/etc/vintf/manifest/vendor.mediatek.hardware.gpu@1.0-service.xml;FIX_SONAME
 vendor/lib/egl/egl.cfg
 vendor/lib/egl/libGLES_mali.so;SYMLINK=vendor/lib/hw/vulkan.mt6768.so
-vendor/lib/egl/libGLES_meow.so
+vendor/lib/egl/libGLES_meow.so|b2f0f67bc43277061214d013d86e1dcfc138702bf6e9a9f48f70762d058c8801
 vendor/lib/egl/libMEOW_gift.so
 vendor/lib/egl/libMEOW_trace.so
-vendor/lib/hw/dfps.mt6768.so
+vendor/lib/hw/dfps.mt6768.so|b197470a4048858c2b016757a7cf4beff89fdc7e8b58acbcfa7d4e57c29b7e13
 vendor/lib/hw/vendor.mediatek.hardware.dfps@1.0-impl.so
 vendor/lib/arm.graphics-V1-ndk_platform.so
 vendor/lib/libDefaultFpsActor.so
@@ -417,15 +417,15 @@ vendor/lib/libion_mtk.so
 vendor/lib/libion_ulit.so
 vendor/lib/libminiui.so
 vendor/lib/libpixelflinger.so
-vendor/lib/libvpud_vcodec.so
+vendor/lib/libvpud_vcodec.so|8b2fa5733db250ebab04b3c3ee2edf9f189dbf5777875c9d675579448e96e35e
 vendor/lib/vendor.mediatek.hardware.dfps@1.0.so
 vendor/lib/vendor.mediatek.hardware.gpu@1.0.so
 vendor/lib64/egl/libGLES_mali.so;SYMLINK=vendor/lib64/hw/vulkan.mt6768.so
-vendor/lib64/egl/libGLES_meow.so
+vendor/lib64/egl/libGLES_meow.so|28a21d1787d76facfffa9ef50cd54dd98d0404d3b3102afb2ab5bbbd1f3e307b
 vendor/lib64/egl/libMEOW_gift.so
 vendor/lib64/egl/libMEOW_trace.so
-vendor/lib64/hw/dfps.mt6768.so
-vendor/lib64/hw/hwcomposer.mt6768.so
+vendor/lib64/hw/dfps.mt6768.so|8bba48478551f442c6bc02e6b0e491e4fb1679a3a509dd7bf7f7841d1a45350a
+vendor/lib64/hw/hwcomposer.mt6768.so|542bb2969f37886f4213b480aa55b854e51359f5131e059476cf9c13fe7cb796
 vendor/lib64/hw/vendor.mediatek.hardware.dfps@1.0-impl.so
 vendor/lib64/arm.graphics-V1-ndk_platform.so
 vendor/lib64/libDefaultFpsActor.so
@@ -591,7 +591,7 @@ vendor/lib64/vendor.mediatek.hardware.keymaster_attestation@1.1.so
 # PQ
 vendor/bin/hw/vendor.mediatek.hardware.pq@2.2-service
 vendor/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc
-vendor/lib/hw/vendor.mediatek.hardware.pq@2.6-impl.so
+vendor/lib/hw/vendor.mediatek.hardware.pq@2.6-impl.so|8dc3d5b1f33007a086239b7ee69c82d77c17bd7ea19b29af27935300ca1cccb6
 vendor/lib/libpq_cust_base.so
 vendor/lib/libpq_prot.so
 vendor/lib/vendor.mediatek.hardware.pq@2.0.so
@@ -601,7 +601,7 @@ vendor/lib/vendor.mediatek.hardware.pq@2.3.so
 vendor/lib/vendor.mediatek.hardware.pq@2.4.so
 vendor/lib/vendor.mediatek.hardware.pq@2.5.so
 vendor/lib/vendor.mediatek.hardware.pq@2.6.so
-vendor/lib64/hw/vendor.mediatek.hardware.pq@2.6-impl.so
+vendor/lib64/hw/vendor.mediatek.hardware.pq@2.6-impl.so|46e5359dfc915106319a5ae2155a85e2c8f1fefaeec3cb414c9b1f487fe1db9a
 vendor/lib64/libpq_cust_base.so
 vendor/lib64/libpq_prot.so
 vendor/lib64/vendor.mediatek.hardware.pq@2.0.so
@@ -652,8 +652,8 @@ vendor/lib/libMtkOmxApeDec.so
 vendor/lib/libMtkOmxCore.so
 vendor/lib/libMtkOmxGsmDec.so
 vendor/lib/libMtkOmxMp3Dec.so
-vendor/lib/libMtkOmxVdecEx.so
-vendor/lib/libMtkOmxVenc.so
+vendor/lib/libMtkOmxVdecEx.so|70e474a6ec3e63323e8d9cb4bdfb99a53272e2d633526f1f60c36bf3b901c8ca
+vendor/lib/libMtkOmxVenc.so|3cacb449afbbef79efcac5b310caf4c80ca43569e17b4c700f598d258c9e17fd
 vendor/lib/libbwc.so
 vendor/lib/libh264dec_customize.so
 vendor/lib/libh264dec_sa.ca7.so
@@ -670,10 +670,10 @@ vendor/lib/libstagefrighthw.so
 vendor/lib/libthha.so
 vendor/lib/libvc1dec_sa.ca7.so
 vendor/lib/libvcodec_oal.so
-vendor/lib/libvcodec_utility.so
+vendor/lib/libvcodec_utility.so|4eff6c8e222d0db26bc80e51a77acd194474b4f47a9cdb334a6a05acff4233b6
 vendor/lib/libvp8dec_sa.ca7.so
 vendor/lib/libvp8enc_sa.ca7.so
-vendor/lib/libvp9dec_sa.ca7.so
+vendor/lib/libvp9dec_sa.ca7.so|a5d997d31798bf108d21ec875d9caf9fa5492a2dc95d54ade7813b0afdb339f8
 vendor/lib/vendor.mediatek.hardware.mtkcodecservice@1.1.so
 vendor/lib64/hw/vendor.mediatek.hardware.mtkcodecservice@1.1-impl.so
 vendor/lib64/AVCSecureVdecCA.so
@@ -816,7 +816,7 @@ vendor/etc/virtual-spn-conf-by-efgid1.xml
 vendor/etc/virtual-spn-conf-by-efpnn.xml
 vendor/etc/virtual-spn-conf-by-efspn.xml
 vendor/etc/virtual-spn-conf-by-imsi.xml
-vendor/lib/hw/vendor.mediatek.hardware.mms@1.5-impl.so
+vendor/lib/hw/vendor.mediatek.hardware.mms@1.5-impl.so|0963dbf0dbcd505ba56045cab86c8fe916a8e515de090df8ba3f601a377d7adb
 vendor/lib/libcares_naptr.so
 vendor/lib/libccci_util.so
 vendor/lib/libcurl_xcap_md.so
@@ -837,7 +837,7 @@ vendor/lib/vendor.mediatek.hardware.mms@1.3.so
 vendor/lib/vendor.mediatek.hardware.mms@1.4.so
 vendor/lib/vendor.mediatek.hardware.mms@1.5.so
 vendor/lib/vendor.mediatek.hardware.netdagent@1.0.so
-vendor/lib64/hw/vendor.mediatek.hardware.mms@1.5-impl.so
+vendor/lib64/hw/vendor.mediatek.hardware.mms@1.5-impl.so|46e5359dfc915106319a5ae2155a85e2c8f1fefaeec3cb414c9b1f487fe1db9a
 vendor/lib64/libcares_naptr.so
 vendor/lib64/libccci_util.so
 vendor/lib64/libcurl_xcap_md.so
