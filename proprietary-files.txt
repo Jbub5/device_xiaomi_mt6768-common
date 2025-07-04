@@ -579,9 +579,6 @@ vendor/lib64/vendor.mediatek.hardware.keymaster_attestation@1.0.so
 vendor/lib64/vendor.mediatek.hardware.keymaster_attestation@1.1.so
 
 # PQ
-vendor/bin/hw/vendor.mediatek.hardware.pq@2.2-service
-vendor/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc
-vendor/lib/hw/vendor.mediatek.hardware.pq@2.6-impl.so|8dc3d5b1f33007a086239b7ee69c82d77c17bd7ea19b29af27935300ca1cccb6
 vendor/lib/libpq_cust_base.so
 vendor/lib/libpq_prot.so
 vendor/lib/vendor.mediatek.hardware.pq@2.0.so
@@ -591,7 +588,6 @@ vendor/lib/vendor.mediatek.hardware.pq@2.3.so
 vendor/lib/vendor.mediatek.hardware.pq@2.4.so
 vendor/lib/vendor.mediatek.hardware.pq@2.5.so
 vendor/lib/vendor.mediatek.hardware.pq@2.6.so
-vendor/lib64/hw/vendor.mediatek.hardware.pq@2.6-impl.so|46e5359dfc915106319a5ae2155a85e2c8f1fefaeec3cb414c9b1f487fe1db9a
 vendor/lib64/libpq_cust_base.so
 vendor/lib64/libpq_prot.so
 vendor/lib64/vendor.mediatek.hardware.pq@2.0.so
