@@ -385,11 +385,9 @@ vendor/lib64/libtlcWidevineModularDrm.so
 vendor/lib64/libwvhidl.so
 
 # Graphics
-vendor/bin/hw/vendor.mediatek.hardware.dfps@1.0-service
 vendor/bin/hw/vendor.mediatek.hardware.gpu@1.0-service
 vendor/bin/vpud|d962f8acc014877ce84af051fab4bd955b179763aec65d526ffb77f80087dfcc
 vendor/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc
-vendor/etc/init/vendor.mediatek.hardware.dfps@1.0-service.rc
 vendor/etc/init/vendor.mediatek.hardware.gpu@1.0-service.rc
 vendor/etc/init/vpud.rc
 vendor/etc/vintf/manifest/android.hardware.gpu@1.0-service.xml:vendor/etc/vintf/manifest/vendor.mediatek.hardware.gpu@1.0-service.xml;FIX_SONAME
@@ -398,15 +396,12 @@ vendor/lib/egl/libGLES_mali.so;SYMLINK=vendor/lib/hw/vulkan.mt6768.so
 vendor/lib/egl/libGLES_meow.so|b2f0f67bc43277061214d013d86e1dcfc138702bf6e9a9f48f70762d058c8801
 vendor/lib/egl/libMEOW_gift.so
 vendor/lib/egl/libMEOW_trace.so
-vendor/lib/hw/dfps.mt6768.so|b197470a4048858c2b016757a7cf4beff89fdc7e8b58acbcfa7d4e57c29b7e13
-vendor/lib/hw/vendor.mediatek.hardware.dfps@1.0-impl.so
 vendor/lib/arm.graphics-V1-ndk_platform.so
 vendor/lib/libDefaultFpsActor.so
 vendor/lib/libFrameRecord.so
 vendor/lib/libNoFpsActor.so
 vendor/lib/libOpenCL.so
 vendor/lib/libdpframework.so
-vendor/lib/libfpspolicy.so
 vendor/lib/libged.so
 vendor/lib/libgpu_aux.so
 vendor/lib/libgpud.so
@@ -418,22 +413,18 @@ vendor/lib/libion_ulit.so
 vendor/lib/libminiui.so
 vendor/lib/libpixelflinger.so
 vendor/lib/libvpud_vcodec.so|8b2fa5733db250ebab04b3c3ee2edf9f189dbf5777875c9d675579448e96e35e
-vendor/lib/vendor.mediatek.hardware.dfps@1.0.so
 vendor/lib/vendor.mediatek.hardware.gpu@1.0.so
 vendor/lib64/egl/libGLES_mali.so;SYMLINK=vendor/lib64/hw/vulkan.mt6768.so
 vendor/lib64/egl/libGLES_meow.so|28a21d1787d76facfffa9ef50cd54dd98d0404d3b3102afb2ab5bbbd1f3e307b
 vendor/lib64/egl/libMEOW_gift.so
 vendor/lib64/egl/libMEOW_trace.so
-vendor/lib64/hw/dfps.mt6768.so|8bba48478551f442c6bc02e6b0e491e4fb1679a3a509dd7bf7f7841d1a45350a
 vendor/lib64/hw/hwcomposer.mt6768.so|542bb2969f37886f4213b480aa55b854e51359f5131e059476cf9c13fe7cb796
-vendor/lib64/hw/vendor.mediatek.hardware.dfps@1.0-impl.so
 vendor/lib64/arm.graphics-V1-ndk_platform.so
 vendor/lib64/libDefaultFpsActor.so
 vendor/lib64/libFrameRecord.so
 vendor/lib64/libNoFpsActor.so
 vendor/lib64/libOpenCL.so
 vendor/lib64/libdpframework.so
-vendor/lib64/libfpspolicy.so
 vendor/lib64/libged.so
 vendor/lib64/libgpu_aux.so
 vendor/lib64/libgpud.so
@@ -447,7 +438,6 @@ vendor/lib64/libion_mtk.so
 vendor/lib64/libion_ulit.so
 vendor/lib64/libminiui.so
 vendor/lib64/libpixelflinger.so
-vendor/lib64/vendor.mediatek.hardware.dfps@1.0.so
 vendor/lib64/vendor.mediatek.hardware.gpu@1.0.so
 
 # Graphics - from selene-user 13-TP1A.220624.014-V14.0.7.0.TKUINXM release-keys
