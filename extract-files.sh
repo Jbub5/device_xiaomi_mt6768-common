@@ -96,6 +96,7 @@ function blob_fixup() {
             [ "$2" = "" ] && return 0
             sed -i 's|\xc0\x03_\xd6\x00\x00\x00\x00\xff\x03\x01\xd1\xfd{\x02\xa9|\xc0\x03_\xd6\x00\x00\x00\x00\xc0\x03_\xd6\xfd{\x02\xa9|g' "${2}"
             ;;
+        vendor/lib*/hw/vendor.mediatek.hardware.pq@2.6-impl.so |\
         vendor/lib*/hw/android.hardware.thermal@2.0-impl.so)
              [ "$2" = "" ] && return 0
             "${PATCHELF}" --replace-needed "libutils.so" "libutils-v32.so" "${2}"
