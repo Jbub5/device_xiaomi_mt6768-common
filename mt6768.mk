@@ -250,6 +250,10 @@ PRODUCT_PACKAGES += \
     libsoft_attestation_cert.vendor \
     libnetutils.vendor
 
+
+# UFFD GC
+PRODUCT_ENABLE_UFFD_GC := true
+
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.light-service.mt6768
