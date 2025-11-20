@@ -413,6 +413,7 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/mediatek \
     hardware/xiaomi \
     hardware/mediatek/libmtkperf_client \
+    hardware/mediatek/libaedv \
     vendor/fingerprint/opensource/interfaces \
     $(COMMON_PATH)
 
