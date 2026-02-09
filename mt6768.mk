@@ -6,8 +6,6 @@
 
 COMMON_PATH := device/xiaomi/mt6768-common
 
-$(call inherit-product, vendor/lindroid/lindroid.mk)
-
 # Dynamic Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
